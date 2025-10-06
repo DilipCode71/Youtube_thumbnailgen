@@ -59,7 +59,7 @@ export default function Navbar() {
   if (!result.isConfirmed) return; 
 
   try {
-    const response = await fetch(  `${BASE_URL}/user//delete-account`,{
+    const response = await fetch(  `${BASE_URL}/user/delete-account`,{
       method: "DELETE",
       headers: {
         "Authorization": `Bearer ${token}`,
