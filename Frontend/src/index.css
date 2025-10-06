@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Floating animation for circles */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(10deg); }
+}
+
+.animate-float-delay-1 {
+  animation: float 6s ease-in-out infinite;
+  top: 10%;
+  left: 10%;
+}
+
+.animate-float-delay-2 {
+  animation: float 7s ease-in-out infinite;
+  top: 60%;
+  right: 15%;
+}
+
+.animate-float-delay-3 {
+  animation: float 8s ease-in-out infinite;
+  bottom: 10%;
+  left: 20%;
+}
+
+.animate-float-delay-4 {
+  animation: float 9s ease-in-out infinite;
+  bottom: 20%;
+  right: 5%;
+}
+
+/* Pulse animation for center logo */
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+
