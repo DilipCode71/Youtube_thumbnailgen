@@ -100,14 +100,12 @@ export default function Navbar() {
     alt="ThumbnailGen Logo"
     className="w-25 h-15 object-contain rounded-3xl"  
   />
-
-            
+    
           </div>
           <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 text-transparent bg-clip-text">
             ThumbnailGen
           </span>
         </Link>
-
 
         <Link to="/" className="flex items-center">
 
